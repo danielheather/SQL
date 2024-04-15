@@ -13,9 +13,9 @@ CREATE DATABASE global_superstore_sales;
 ```
 
 Then we can create our tables, we will have three tables "customers", "products", and "orders". "orders" will hold the foreign key for the other two tables. 
-customers: Records customer information, for in customer segmentation and demographic analysis.
-products: Catalogs product inventory, for tracking and analyzing product performance.
-orders: For sales transactions, linking the products and customers, and includeing financial metrics.
+-customers: Records customer information, for in customer segmentation and demographic analysis.
+-products: Catalogs product inventory, for tracking and analyzing product performance.
+-orders: For sales transactions, linking the products and customers, and includeing financial metrics.
 
 ```SQL
 CREATE TABLE customers(
